@@ -25,7 +25,7 @@ export function Location() {
             <li className="flex gap-3">
               <Clock className="h-6 w-6 mt-0.5 text-[var(--blaze)]" />
               <div>
-                <div className="font-bold">Início 08h - Retorno 18h</div>
+                <div className="font-bold">Início 08h - Retorno 16h</div>
                 <div className="text-sm opacity-75">Programação completa nos 2 dias</div>
               </div>
             </li>
@@ -33,14 +33,14 @@ export function Location() {
               <Bus className="h-6 w-6 mt-0.5 text-[var(--blaze)]" />
               <div>
                 <div className="font-bold">Saída em frente à Rede Cativar</div>
-                <div className="text-sm opacity-75">Endereço enviado por e-mail após inscrição</div>
+                <div className="text-sm opacity-75">R. Souza Pôrto, 242 - St. Central, Araguaína - TO</div>
               </div>
             </li>
             <li className="flex gap-3">
               <MapPin className="h-6 w-6 mt-0.5 text-[var(--blaze)]" />
               <div>
-                <div className="font-bold">Chácara - local revelado em breve</div>
-                <div className="text-sm opacity-75">A 1h da cidade - cercada de natureza</div>
+                <div className="font-bold">Chácara Estrela</div>
+                <div className="text-sm opacity-75">15 minutos da igreja</div>
               </div>
             </li>
           </ul>
