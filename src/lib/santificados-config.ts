@@ -1,5 +1,4 @@
-// TODO: replace with the real Google Forms / Sympla URL when ready.
-export const EXTERNAL_FORM_URL = "#";
+export const EXTERNAL_FORM_URL = "https://forms.gle/Uq6KiNj56u1EM4Yv8";
 export const SPONSOR_FORM_URL = "#";
 
 // Retiro start: 15/08/2026 08:00 (America/Sao_Paulo = UTC-3)
