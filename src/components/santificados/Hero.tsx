@@ -1,27 +1,20 @@
-import logoBadge from "@/assets/logo-badge.jpg.asset.json";
-import { Waves, SunRays } from "./Waves";
+import logoSimplificada from "@/assets/logo-simplificada.png.asset.json";
+import { Waves } from "./Waves";
 import { ChevronDown } from "lucide-react";
 import { EXTERNAL_FORM_URL, SPONSOR_FORM_URL } from "@/lib/santificados-config";
 
 export function Hero() {
   return (
     <section className="relative min-h-screen w-full overflow-hidden grain" style={{ background: "linear-gradient(180deg, var(--ocean) 0%, var(--sky) 100%)" }}>
-      {/* Sun */}
-      <div className="pointer-events-none absolute left-1/2 top-[18%] -translate-x-1/2 w-[520px] h-[520px] opacity-90">
-        <div className="w-full h-full animate-spin-slow">
-          <SunRays className="w-full h-full" />
-        </div>
-      </div>
-
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 py-24 text-center text-[var(--cream)]">
         <span className="mb-6 inline-block rounded-full border-2 border-[var(--cream)] bg-[var(--ink)]/30 px-4 py-1 text-xs font-bold uppercase tracking-[0.25em] backdrop-blur-sm">
           Retiro · Cativar 2026
         </span>
 
         <img
-          src={logoBadge.url}
+          src={logoSimplificada.url}
           alt="Santificados — Retiro Cativar 2026"
-          className="mx-auto w-[min(86vw,460px)] drop-shadow-[0_8px_0_rgba(0,0,0,0.25)] animate-float"
+          className="mx-auto w-[min(90vw,520px)] animate-float"
         />
 
         <p className="mt-8 max-w-xl text-base md:text-lg font-medium leading-relaxed text-[var(--cream)]/95">
