@@ -45,13 +45,16 @@ export function Location() {
             </li>
           </ul>
         </div>
-        <div
-          className="aspect-[4/3] rounded-3xl border-4 border-[var(--ink)] shadow-[10px_10px_0_var(--ink)] overflow-hidden relative"
-          style={{ background: "linear-gradient(135deg, var(--ocean), var(--blaze))" }}
-        >
-          <div className="absolute inset-0 flex items-center justify-center text-[var(--cream)]/80 text-sm tracking-widest uppercase font-bold">
-            Foto da chácara em breve
-          </div>
+        <div className="aspect-[4/3] rounded-3xl border-4 border-[var(--ink)] shadow-[10px_10px_0_var(--ink)] overflow-hidden relative bg-[var(--cream)]">
+          <iframe
+            title="Local de saída - Rede Cativar"
+            src="https://www.google.com/maps?q=R.+Souza+P%C3%B4rto,+242,+Aragua%C3%ADna+-+TO&output=embed"
+            className="absolute inset-0 h-full w-full"
+            style={{ border: 0 }}
+            allowFullScreen
+            loading="lazy"
+            referrerPolicy="no-referrer-when-downgrade"
+          />
         </div>
       </div>
     </section>
