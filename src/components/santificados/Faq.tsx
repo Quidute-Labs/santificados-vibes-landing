@@ -3,10 +3,16 @@ import { useReveal } from "@/hooks/use-reveal";
 
 const faqs = [
   { q: "Posso parcelar?", a: "Sim - no cartão você pode parcelar em até 3x. À vista o pagamento é via PIX." },
-  { q: "Qual a idade mínima?", a: "O retiro é voltado para jovens a partir de 14 anos. Menores precisam de autorização dos responsáveis." },
-  { q: "Possó levar um amigo?", a: "Pode e deve! Quanto mais, melhor. Cada um precisa fazer sua própria inscrição." },
-  { q: "Precisó levar roupa de cama?", a: "Não. A acomodação já vem com tudo pronto. Você só leva roupa, higiene pessoal e disposicao." },
-  { q: "O transporte é obrigatório?", a: "Não, mas é recomendado. Se preferir ir por conta própria, basta avisar na inscrição." },
+  { q: "Qual a idade mínima?", a: "O retiro é voltado para jovens a partir de 14 anos." },
+  { q: "Posso levar um amigo?", a: "Pode e deve! Quanto mais, melhor. Cada um precisa fazer sua própria inscrição." },
+  {
+    q: "Preciso levar barraca e roupa de cama?",
+    a: "Sim, lá tem um bom espaço para acampar. Leve roupas leves, produtos de higiene pessoal e muita disposição.",
+  },
+  {
+    q: "O transporte é obrigatório?",
+    a: "Não, mas é recomendado. Se preferir ir por conta própria, basta avisar na inscrição.",
+  },
 ];
 
 export function Faq() {
@@ -24,9 +30,7 @@ export function Faq() {
               <AccordionTrigger className="font-display text-left text-lg sm:text-xl text-[var(--ink)] py-5 hover:no-underline">
                 {f.q}
               </AccordionTrigger>
-              <AccordionContent className="text-[var(--ink)]/75 text-base leading-relaxed pb-5">
-                {f.a}
-              </AccordionContent>
+              <AccordionContent className="text-[var(--ink)]/75 text-base leading-relaxed pb-5">{f.a}</AccordionContent>
             </AccordionItem>
           ))}
         </Accordion>
