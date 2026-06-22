@@ -35,8 +35,8 @@ export function FinalCta() {
 export function Footer() {
   return (
     <footer className="bg-[var(--ink)] text-[var(--cream)]/70 py-10 px-6 text-center text-sm">
-      <div className="font-display text-[var(--cream)] text-lg mb-2">SANTIFICADOS - 2026</div>
-      <p>Retiro Cativar - feito com fé e suor pelos jovens à Rede Cativar.</p>
+      <div className="font-display text-[var(--cream)] text-lg mb-2">REDE CATIVAR - 2026</div>
+      <p>Rede de jovens e adolescentes da Primeira Igreja Batista em Araguaína/TO</p>
     </footer>
   );
 }
