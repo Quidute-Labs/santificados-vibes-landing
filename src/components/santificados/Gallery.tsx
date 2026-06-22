@@ -10,7 +10,7 @@ import g6 from "@/assets/gallery/g6.jpg.asset.json";
 const polaroids = [
   { src: g1.url, caption: "Momento de oração", rot: -4 },
   { src: g2.url, caption: "Conferência Purificados", rot: 3 },
-  { src: g3.url, caption: "Adoração de mãos ao alto", rot: -2 },
+  { src: g3.url, caption: "O agir de Deus", rot: -2 },
   { src: g4.url, caption: "Adoração & Intercessão", rot: 4 },
   { src: g5.url, caption: "Família Cativar", rot: -3 },
   { src: g6.url, caption: "Fogueira & Comunhão", rot: 2 },
