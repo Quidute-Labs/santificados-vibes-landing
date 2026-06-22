@@ -1,6 +1,5 @@
 import logoCheia from "@/assets/logo-cheia.png.asset.json";
 import { Waves } from "./Waves";
-import { ChevronDown } from "lucide-react";
 import { EXTERNAL_FORM_URL, SPONSOR_FORM_URL } from "@/lib/santificados-config";
 
 export function Hero() {
