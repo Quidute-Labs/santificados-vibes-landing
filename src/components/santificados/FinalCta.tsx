@@ -9,7 +9,7 @@ export function FinalCta() {
       style={{ background: "linear-gradient(180deg, var(--ocean), oklch(0.35 0.16 258))" }}
     >
       <div className="relative z-10 text-center text-[var(--cream)] max-w-3xl">
-        <img src={logoSimplificada.url} alt="Santificados" className="mx-auto w-[min(80vw,420px)] mb-8 animate-float" />
+        <img src={logoSimplificada.url} alt="Santificados" className="mx-auto w-[min(80vw,420px)] mb-4 animate-float" />
 
         <h2 className="font-display text-3xl sm:text-5xl leading-[0.95] mb-10">
           Você está pronto para
