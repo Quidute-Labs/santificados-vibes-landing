@@ -1,5 +1,3 @@
-import logoCheia from "@/assets/logo-cheia.png.asset.json";
-import logoCativar from "@/assets/logo-cativar-badge.jpg.asset.json";
 import { Waves } from "./Waves";
 import { EXTERNAL_FORM_URL, SPONSOR_FORM_URL } from "@/lib/santificados-config";
 
@@ -8,13 +6,13 @@ export function Hero() {
     <section className="relative min-h-screen w-full overflow-hidden grain" style={{ background: "linear-gradient(180deg, var(--ocean) 0%, var(--sky) 100%)" }}>
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 py-24 text-center text-[var(--cream)]">
         <img
-          src={logoCativar.url}
+          src="/assets/logo-cativar-badge.jpg"
           alt="Rede Cativar"
           className="mb-6 h-10 w-auto"
         />
 
         <img
-          src={logoCheia.url}
+          src="/assets/logo-cheia.png"
           alt="Santificados — Retiro Cativar 2026"
           className="mx-auto w-[min(90vw,520px)] animate-float"
         />
