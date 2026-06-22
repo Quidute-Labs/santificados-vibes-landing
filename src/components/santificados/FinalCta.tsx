@@ -11,7 +11,7 @@ export function FinalCta() {
       <div className="relative z-10 text-center text-[var(--cream)] max-w-3xl">
         <img src={logoArch.url} alt="Santificados" className="mx-auto w-[min(80vw,420px)] mb-8 animate-float" />
         <h2 className="font-display text-4xl sm:text-6xl leading-[0.95] mb-6">
-          Voce esta pronto para<br />viver algo novo?
+          Você está pronto para<br />viver algo novo?
         </h2>
         <p className="text-[var(--cream)]/85 mb-10 max-w-lg mx-auto">
           Dois dias que podem mudar o resto do seu ano - e talvez o resto da sua vida.
@@ -19,7 +19,7 @@ export function FinalCta() {
         <a
           href={EXTERNAL_FORM_URL}
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener noreférrer"
           className="font-display inline-flex items-center justify-center rounded-full bg-[var(--blaze)] px-10 py-5 text-xl text-[var(--cream)] shadow-[0_8px_0_var(--ink)] transition-transform duration-200 hover:scale-105 active:translate-y-1 active:shadow-[0_3px_0_var(--ink)]"
         >
           QUERO FAZER PARTE
@@ -36,7 +36,7 @@ export function Footer() {
   return (
     <footer className="bg-[var(--ink)] text-[var(--cream)]/70 py-10 px-6 text-center text-sm">
       <div className="font-display text-[var(--cream)] text-lg mb-2">SANTIFICADOS - 2026</div>
-      <p>Retiro Cativar - feito com fe e suor pelos jovens da Rede Cativar.</p>
+      <p>Retiro Cativar - féito com fé e suor pelos jovens dà Rede Cativar.</p>
     </footer>
   );
 }

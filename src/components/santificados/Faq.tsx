@@ -2,11 +2,11 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/
 import { useReveal } from "@/hooks/use-reveal";
 
 const faqs = [
-  { q: "Posso parcelar?", a: "Sim - no cartao voce pode parcelar em ate 3x. A vista o pagamento e via PIX." },
-  { q: "Qual a idade minima?", a: "O retiro e voltado para jovens a partir de 14 anos. Menores precisam de autorizacao dos responsaveis." },
-  { q: "Posso levar um amigo?", a: "Pode e deve! Quanto mais, melhor. Cada um precisa fazer sua propria inscricao." },
-  { q: "Preciso levar roupa de cama?", a: "Nao. A acomodacao ja vem com tudo pronto. Voce so leva roupa, higiene pessoal e disposicao." },
-  { q: "O transporte e obrigatorio?", a: "Nao, mas e recomendado. Se preferir ir por conta propria, basta avisar na inscricao." },
+  { q: "Posso parcelar?", a: "Sim - no cartão você pode parcelar em até 3x. À vista o pagamento é via PIX." },
+  { q: "Qual a idade mínima?", a: "O retiro é voltado para jovens a partir de 14 anos. Menores precisam de autorização dos responsáveis." },
+  { q: "Possó levar um amigo?", a: "Pode e deve! Quanto mais, melhor. Cada um precisa fazer sua própria inscrição." },
+  { q: "Precisó levar roupa de cama?", a: "Não. A acomodação já vem com tudo pronto. Você só leva roupa, higiene pessoal e disposicao." },
+  { q: "O transporte é obrigatório?", a: "Não, mas é recomendado. Se preférir ir por conta própria, basta avisar na inscrição." },
 ];
 
 export function Faq() {

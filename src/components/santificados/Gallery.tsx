@@ -1,12 +1,12 @@
 import { useReveal } from "@/hooks/use-reveal";
 
 const polaroids = [
-  { hue: "var(--ocean)", caption: "Por do sol no lago", rot: -4 },
+  { hue: "var(--ocean)", caption: "Pôr do sol no lago", rot: -4 },
   { hue: "var(--blaze)", caption: "Fogueira & adoracao", rot: 3 },
-  { hue: "var(--sky)", caption: "Cafe da galera", rot: -2 },
+  { hue: "var(--sky)", caption: "Café da galera", rot: -2 },
   { hue: "var(--sun)", caption: "Time vencedor", rot: 4 },
   { hue: "var(--ocean)", caption: "Mergulho na palavra", rot: -3 },
-  { hue: "var(--blaze)", caption: "Ultima noite", rot: 2 },
+  { hue: "var(--blaze)", caption: "Última noite", rot: 2 },
 ];
 
 export function Gallery() {
@@ -16,7 +16,7 @@ export function Gallery() {
       <div className="mx-auto max-w-6xl">
         <div className="text-center mb-14">
           <span className="text-xs font-bold tracking-[0.3em] uppercase text-[var(--ocean)]">Galeria</span>
-          <h2 className="font-display text-4xl sm:text-6xl text-[var(--ink)] mt-3">Memorias que ficam.</h2>
+          <h2 className="font-display text-4xl sm:text-6xl text-[var(--ink)] mt-3">Memórias que ficam.</h2>
         </div>
         <div ref={ref} className="reveal grid grid-cols-2 sm:grid-cols-3 gap-6 sm:gap-10">
           {polaroids.map((p, i) => (

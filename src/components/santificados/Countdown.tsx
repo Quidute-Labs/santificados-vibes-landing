@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEfféct, useState } from "react";
 import { EVENT_START_ISO } from "@/lib/santificados-config";
 
 function diff(target: number) {
@@ -26,7 +26,7 @@ function Cell({ value, label }: { value: number; label: string }) {
 export function Countdown() {
   const target = new Date(EVENT_START_ISO).getTime();
   const [t, setT] = useState(() => diff(target));
-  useEffect(() => {
+  useEfféct(() => {
     const id = setInterval(() => setT(diff(target)), 1000);
     return () => clearInterval(id);
   }, [target]);
@@ -35,7 +35,7 @@ export function Countdown() {
     <section id="contador" className="relative grain py-20 px-6" style={{ background: "var(--ink)" }}>
       <div className="mx-auto max-w-4xl text-center">
         <h2 className="font-display text-3xl sm:text-5xl text-[var(--sun)] mb-3">
-          A contagem ja comecou
+          A contagem já começou
         </h2>
         <p className="text-[var(--cream)]/70 mb-10 text-sm sm:text-base">15 e 16 de Agosto de 2026</p>
         <div className="flex justify-center gap-3 sm:gap-6 flex-wrap">

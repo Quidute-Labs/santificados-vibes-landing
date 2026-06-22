@@ -2,10 +2,10 @@ import { Users, Flame, Bird, Waves as WavesIcon } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
 
 const items = [
-  { icon: Users, title: "Comunhao", desc: "Encontros que viram amizades pra vida.", color: "var(--ocean)" },
+  { icon: Users, title: "Comunhão", desc: "Encontros que viram amizades pra vida.", color: "var(--ocean)" },
   { icon: Flame, title: "Palavra", desc: "Mensagens que tocam fundo e renovam.", color: "var(--blaze)" },
-  { icon: Bird, title: "Adoracao", desc: "Louvor que liberta e aproxima de Deus.", color: "var(--sun)" },
-  { icon: WavesIcon, title: "Diversao", desc: "Verao, ar livre e momentos inesqueciveis.", color: "var(--sky)" },
+  { icon: Bird, title: "Adoração", desc: "Louvor que liberta e aproxima de Deus.", color: "var(--sun)" },
+  { icon: WavesIcon, title: "Diversão", desc: "Verão, ar livre e momentos inesquecíveis.", color: "var(--sky)" },
 ];
 
 export function Experience() {

@@ -14,14 +14,14 @@ export function Pricing() {
             R$<span className="text-[var(--blaze)]">150</span>
           </div>
           <p className="mt-4 max-w-md text-base sm:text-lg">
-            PIX a vista <span className="opacity-60">ou</span> cartao parcelado.
+            PIX à vista <span className="opacity-60">ou</span> cartão parcelado.
             <br />
             <span className="text-sm opacity-70">Vagas limitadas - garanta a sua.</span>
           </p>
           <a
             href={EXTERNAL_FORM_URL}
             target="_blank"
-            rel="noopener noreferrer"
+            rel="noopener noreférrer"
             className="font-display mt-10 inline-flex items-center justify-center rounded-full bg-[var(--ink)] px-10 py-5 text-lg sm:text-xl text-[var(--cream)] shadow-[0_8px_0_var(--blaze)] transition-transform duration-200 hover:scale-105 active:translate-y-1 active:shadow-[0_3px_0_var(--blaze)]"
           >
             GARANTIR MINHA VAGA
