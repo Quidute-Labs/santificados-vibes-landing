@@ -12,11 +12,11 @@ function diff(target: number) {
 
 function Cell({ value, label }: { value: number; label: string }) {
   return (
-    <div className="flex flex-col items-center">
-      <div className="font-display text-4xl sm:text-6xl md:text-7xl rounded-2xl bg-[var(--cream)] text-[var(--ink)] px-5 sm:px-7 py-4 shadow-[0_6px_0_var(--blaze)] tabular-nums min-w-[5rem] text-center">
+    <div className="flex flex-col items-center min-w-0 flex-1">
+      <div className="font-display text-2xl sm:text-4xl md:text-6xl rounded-xl sm:rounded-2xl bg-[var(--cream)] text-[var(--ink)] px-2 sm:px-5 md:px-7 py-2 sm:py-3 md:py-4 shadow-[0_4px_0_var(--blaze)] sm:shadow-[0_6px_0_var(--blaze)] tabular-nums w-full min-w-0 text-center">
         {String(value).padStart(2, "0")}
       </div>
-      <span className="mt-3 text-[10px] sm:text-xs font-bold tracking-[0.3em] uppercase text-[var(--cream)]/80">
+      <span className="mt-2 sm:mt-3 text-[9px] sm:text-[10px] md:text-xs font-bold tracking-[0.2em] sm:tracking-[0.3em] uppercase text-[var(--cream)]/80">
         {label}
       </span>
     </div>
@@ -39,7 +39,7 @@ export function Countdown() {
           A contagem já começou
         </h2>
         <p className="text-[var(--cream)]/70 mb-10 text-sm sm:text-base">15 e 16 de Agosto de 2026</p>
-        <div className="flex justify-center gap-3 sm:gap-6 flex-wrap">
+        <div className="flex justify-center gap-2 sm:gap-4 md:gap-6 flex-nowrap w-full">
           <Cell value={t.d} label="Dias" />
           <Cell value={t.h} label="Horas" />
           <Cell value={t.m} label="Min" />
