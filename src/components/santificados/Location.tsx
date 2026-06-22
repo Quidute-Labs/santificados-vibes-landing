@@ -48,7 +48,7 @@ export function Location() {
         <div className="aspect-[4/3] rounded-3xl border-4 border-[var(--ink)] shadow-[10px_10px_0_var(--ink)] overflow-hidden relative bg-[var(--cream)]">
           <iframe
             title="Local de saída - Rede Cativar"
-            src="https://www.google.com/maps?q=R.+Souza+P%C3%B4rto,+242,+Aragua%C3%ADna+-+TO&output=embed"
+            src="https://www.google.com/maps?q=Ch%C3%A1cara+Estrela+-+Espa%C3%A7o+de+Eventos,+Aragua%C3%ADna,+TO&output=embed"
             className="absolute inset-0 h-full w-full"
             style={{ border: 0 }}
             allowFullScreen
