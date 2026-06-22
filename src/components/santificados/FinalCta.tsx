@@ -19,7 +19,7 @@ export function FinalCta() {
         <a
           href={EXTERNAL_FORM_URL}
           target="_blank"
-          rel="noopener noreférrer"
+          rel="noopener noreferrer"
           className="font-display inline-flex items-center justify-center rounded-full bg-[var(--blaze)] px-10 py-5 text-xl text-[var(--cream)] shadow-[0_8px_0_var(--ink)] transition-transform duration-200 hover:scale-105 active:translate-y-1 active:shadow-[0_3px_0_var(--ink)]"
         >
           QUERO FAZER PARTE
@@ -36,7 +36,7 @@ export function Footer() {
   return (
     <footer className="bg-[var(--ink)] text-[var(--cream)]/70 py-10 px-6 text-center text-sm">
       <div className="font-display text-[var(--cream)] text-lg mb-2">SANTIFICADOS - 2026</div>
-      <p>Retiro Cativar - féito com fé e suor pelos jovens dà Rede Cativar.</p>
+      <p>Retiro Cativar - feito com fé e suor pelos jovens à Rede Cativar.</p>
     </footer>
   );
 }

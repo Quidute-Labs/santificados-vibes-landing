@@ -34,7 +34,7 @@ export function Hero() {
           <a
             href={EXTERNAL_FORM_URL}
             target="_blank"
-            rel="noopener noreférrer"
+            rel="noopener noreferrer"
             className="font-display inline-flex items-center justify-center rounded-full bg-[var(--blaze)] px-8 py-4 text-lg text-[var(--cream)] shadow-[0_6px_0_var(--ink)] transition-transform duration-200 hover:scale-105 active:translate-y-1 active:shadow-[0_2px_0_var(--ink)]"
           >
             QUERO PARTICIPAR
@@ -42,7 +42,7 @@ export function Hero() {
           <a
             href={SPONSOR_FORM_URL}
             target="_blank"
-            rel="noopener noreférrer"
+            rel="noopener noreferrer"
             className="font-display inline-flex items-center justify-center rounded-full border-2 border-[var(--cream)] px-8 py-4 text-lg text-[var(--cream)] transition-colors hover:bg-[var(--cream)] hover:text-[var(--ocean)]"
           >
             QUERO SER PADRINHO
