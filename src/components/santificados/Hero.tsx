@@ -1,5 +1,5 @@
 import logoCheia from "@/assets/logo-cheia.png.asset.json";
-import logoCativar from "@/assets/logo-cativar.png.asset.json";
+import logoCativar from "@/assets/logo-cativar-badge.jpg.asset.json";
 import { Waves } from "./Waves";
 import { EXTERNAL_FORM_URL, SPONSOR_FORM_URL } from "@/lib/santificados-config";
 
