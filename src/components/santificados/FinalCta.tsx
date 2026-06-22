@@ -11,10 +11,10 @@ export function FinalCta() {
       <div className="relative z-10 text-center text-[var(--cream)] max-w-3xl">
         <img src={logoSimplificada.url} alt="Santificados" className="mx-auto w-[min(80vw,420px)] mb-4 animate-float" />
 
-        <h2 className="font-display text-3xl sm:text-5xl leading-[0.95] mb-5">
-          Você está pronto para
+        <h2 className="font-display text-xl sm:text-3xl leading-[0.95] mb-5">
+          Não fique de fora
           <br />
-          viver algo novo?
+          assistindo pelos stories
         </h2>
         <a
           href={EXTERNAL_FORM_URL}
