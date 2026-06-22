@@ -1,4 +1,4 @@
-import logoSimplificada from "@/assets/logo-simplificada.png.asset.json";
+import logoCheia from "@/assets/logo-cheia.png.asset.json";
 import { Waves } from "./Waves";
 import { ChevronDown } from "lucide-react";
 import { EXTERNAL_FORM_URL, SPONSOR_FORM_URL } from "@/lib/santificados-config";
@@ -12,7 +12,7 @@ export function Hero() {
         </span>
 
         <img
-          src={logoSimplificada.url}
+          src={logoCheia.url}
           alt="Santificados — Retiro Cativar 2026"
           className="mx-auto w-[min(90vw,520px)] animate-float"
         />
