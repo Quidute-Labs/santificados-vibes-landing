@@ -1,6 +1,7 @@
 import { Waves, SunRays } from "./Waves";
 import { EXTERNAL_FORM_URL } from "@/lib/santificados-config";
-import logoArch from "@/assets/logo-arch.jpg.asset.json";
+import logoSimplificada from "@/assets/logo-simplificada.jpg.asset.json";
+
 
 export function FinalCta() {
   return (
