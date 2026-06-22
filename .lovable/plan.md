@@ -1,44 +1,23 @@
-## Landing Page – Retiro SANTIFICADOS 2026
+## O que será feito
 
-Single-page TanStack route (`/`) mobile-first, com estética streetwear cristã / surf vintage. Tudo em uma rota só com seções ancoradas + navegação por scroll.
+Ajustar o componente `src/components/santificados/FinalCta.tsx` para refinar a seção final da landing page:
 
-### Direção visual
-- **Paleta** (tokens em `src/styles.css`, oklch): Azul Oceano `#1E66D0`, Azul Claro `#72B8F5`, Amarelo Sol `#F4C316`, Laranja `#F57C00`, Off-white `#F6F1E7`, Preto `#121212`.
-- **Tipografia** via `@fontsource`: **Alfa Slab One** (display, parecido a Cooper Black) + **Poppins** 400/600. Instalo via `bun add`.
-- **Textura**: overlay SVG de grão/noise + bordas serrilhadas em algumas seções (clip-path / mask) para aspecto de adesivo serigrafado.
-- **Logos**: subo as 3 imagens enviadas via `lovable-assets` (arch, badge completo, banner horizontal) e uso cada uma na seção apropriada.
+1. **Remover o sol girando ao fundo**
+   - Excluir o container absoluto que renderiza `<SunRays />` com animação `animate-spin-slow`.
+   - Remover o import não utilizado de `SunRays` no `Waves.ts` se ele deixar de ser usado em todo o projeto.
 
-### Estrutura das seções
-1. **Hero** (100vh) – fundo gradiente azul + SVG de raios amarelos animados (rotação lenta), ondas SVG no rodapé com loop, logo badge centralizado, badge "RETIRO CATIVAR 2026", versículo, 2 CTAs (Quero Participar / Quero ser Padrinho – outline), scroll indicator animado.
-2. **Contador** – fundo preto envelhecido, 4 cards arredondados off-white com flip animation (dias/horas/min/seg). Target: **15/08/2026 08:00 BRT**.
-3. **O que vamos viver** – título display + 4 cards orgânicos (border-radius irregular via clip-path) com ícones lucide-react (Users, Flame, Bird, Waves) e hover scale.
-4. **O que está incluso** – fundo off-white, ícones grandes, grid horizontal em desktop / carrossel (embla) em mobile.
-5. **Local** – card com placeholder de mapa estilizado + foto placeholder (usuário envia depois), datas/horários/ponto de saída/retorno.
-6. **Investimento** – fundo amarelo, R$150 enorme com tipografia display, CTA laranja "GARANTIR MINHA VAGA".
-7. **Galeria** – grid de polaroids com rotação randômica + animação fade-in on scroll (IntersectionObserver). Placeholders até receber fotos.
-8. **FAQ** – shadcn `Accordion` com 5 perguntas listadas.
-9. **Chamada final** – mirror do hero, fundo azul + ondas + pomba + sol, CTA "QUERO FAZER PARTE".
-10. **Footer** mínimo com créditos / redes sociais placeholder.
+2. **Remover o texto "Dois dias que podem..."**
+   - Excluir o parágrafo `<p className="text-[var(--cream)]/85 mb-10 ...">`.
+   - Ajustar o espaçamento do botão para manter o equilíbrio visual sem o parágrafo.
 
-### Microinterações
-- `IntersectionObserver` hook para fade-in/translate-up em cada seção.
-- Parallax discreto no sol/ondas do hero (transform on scroll, sem libs).
-- Hover scale 1.05 nos CTAs.
-- `scroll-behavior: smooth`.
+3. **Garantir a logo simplificada na seção**
+   - A imagem já aponta para `src/assets/logo-simplificada.jpg.asset.json`.
+   - Confirmar que o import e o `src` estão corretos após as edições.
 
-### CTAs
-Todos os botões de inscrição apontam para `EXTERNAL_FORM_URL` (constante única no topo do arquivo) — você cola o link do Google Forms/Sympla depois e atualiza num lugar só. Por enquanto fica `#` com `target="_blank"`.
+4. **Verificar build e preview**
+   - Rodar `bun run build:dev`.
+   - Tirar screenshot da seção final no preview para confirmar o resultado visual.
 
-### SEO
-`head()` na rota `/`: title "Santificados • Retiro Cativar 2026", description conforme PRD, og:title/og:description, og:image apontando para o logo badge (asset CDN), canonical "/".
-
-### Arquivos a criar/editar
-- `src/styles.css` – adicionar tokens da paleta + utilitários (grão, ondas).
-- `src/main.tsx` – `import '@fontsource/alfa-slab-one'` e `@fontsource/poppins/{400,600}.css`.
-- `src/routes/index.tsx` – orquestrador da landing (substitui placeholder).
-- `src/components/santificados/` – `Hero.tsx`, `Countdown.tsx`, `Experience.tsx`, `Included.tsx`, `Location.tsx`, `Pricing.tsx`, `Gallery.tsx`, `Faq.tsx`, `FinalCta.tsx`, `Footer.tsx`, `Waves.tsx` (SVG), `SunRays.tsx` (SVG), `GrainOverlay.tsx`.
-- `src/hooks/use-reveal.ts` – IntersectionObserver helper.
-- `src/assets/logo-*.asset.json` – 3 pointers para as logos enviadas.
-
-### Próximos passos depois do build
-Você me envia: (1) link do formulário de inscrição, (2) fotos da galeria e foto da chácara, (3) endereço/ponto de saída exatos. Eu plugo tudo em um único PR.
+## Arquivos envolvidos
+- `src/components/santificados/FinalCta.tsx` (edição)
+- `src/components/santificados/Waves.tsx` (possível remoção de import `SunRays`)
