@@ -10,7 +10,8 @@ export function FinalCta() {
         <div className="animate-spin-slow w-full h-full"><SunRays className="w-full h-full" /></div>
       </div>
       <div className="relative z-10 text-center text-[var(--cream)] max-w-3xl">
-        <img src={logoArch.url} alt="Santificados" className="mx-auto w-[min(80vw,420px)] mb-8 animate-float" />
+        <img src={logoSimplificada.url} alt="Santificados" className="mx-auto w-[min(80vw,420px)] mb-8 animate-float" />
+
         <h2 className="font-display text-4xl sm:text-6xl leading-[0.95] mb-6">
           Você está pronto para<br />viver algo novo?
         </h2>
