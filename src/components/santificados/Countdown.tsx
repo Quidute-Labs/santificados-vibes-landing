@@ -25,8 +25,11 @@ function Cell({ value, label }: { value: number; label: string }) {
 
 export function Countdown() {
   const target = new Date(EVENT_START_ISO).getTime();
-  const [t, setT] = useState(() => diff(target));
+  const [t, setT] = useState({ d: 0, h: 0, m: 0, s: 0 });
+  const [mounted, setMounted] = useState(false);
   useEffect(() => {
+    setMounted(true);
+    setT(diff(target));
     const id = setInterval(() => setT(diff(target)), 1000);
     return () => clearInterval(id);
   }, [target]);
