@@ -1,12 +1,19 @@
 import { useReveal } from "@/hooks/use-reveal";
 
+import g1 from "@/assets/gallery/g1.jpg.asset.json";
+import g2 from "@/assets/gallery/g2.jpg.asset.json";
+import g3 from "@/assets/gallery/g3.jpg.asset.json";
+import g4 from "@/assets/gallery/g4.jpg.asset.json";
+import g5 from "@/assets/gallery/g5.jpg.asset.json";
+import g6 from "@/assets/gallery/g6.jpg.asset.json";
+
 const polaroids = [
-  { hue: "var(--ocean)", caption: "Pôr do sol no lago", rot: -4 },
-  { hue: "var(--blaze)", caption: "Fogueira & adoracao", rot: 3 },
-  { hue: "var(--sky)", caption: "Café da galera", rot: -2 },
-  { hue: "var(--sun)", caption: "Time vencedor", rot: 4 },
-  { hue: "var(--ocean)", caption: "Mergulho na palavra", rot: -3 },
-  { hue: "var(--blaze)", caption: "Última noite", rot: 2 },
+  { src: g1.url, caption: "Momento de oração", rot: -4 },
+  { src: g2.url, caption: "Culto de encerramento", rot: 3 },
+  { src: g3.url, caption: "Adoração de mãos ao alto", rot: -2 },
+  { src: g4.url, caption: "Comunhão e intercessão", rot: 4 },
+  { src: g5.url, caption: "Família Cativar", rot: -3 },
+  { src: g6.url, caption: "Fogueira & adoração", rot: 2 },
 ];
 
 export function Gallery() {
@@ -25,14 +32,16 @@ export function Gallery() {
               className="bg-white p-3 pb-6 shadow-[6px_6px_0_var(--ink)] border border-[var(--ink)]/20 transition-transform hover:scale-[1.04] hover:rotate-0"
               style={{ transform: `rotate(${p.rot}deg)` }}
             >
-              <div className="aspect-square mb-3" style={{ background: `linear-gradient(135deg, ${p.hue}, var(--ink))` }} />
+              <img
+                src={p.src}
+                alt={p.caption}
+                loading="lazy"
+                className="aspect-square w-full object-cover mb-3"
+              />
               <div className="font-display text-sm text-center text-[var(--ink)]">{p.caption}</div>
             </div>
           ))}
         </div>
-        <p className="text-center mt-10 text-xs uppercase tracking-widest text-[var(--ink)]/50">
-          Fotos reais em breve
-        </p>
       </div>
     </section>
   );
