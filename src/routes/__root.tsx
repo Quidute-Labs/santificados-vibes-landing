@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Santificados • Retiro Cativar 2026" },
+      { name: "description", content: "Dois dias de comunhão, palavra, adoração e diversão. Participe do Retiro Santificados 2026 da Rede Cativar." },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Santificados • Retiro Cativar 2026" },
+      { property: "og:description", content: "Dois dias de comunhão, palavra, adoração e diversão. Participe do Retiro Santificados 2026 da Rede Cativar." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Santificados • Retiro Cativar 2026" },
+      { name: "twitter:description", content: "Dois dias de comunhão, palavra, adoração e diversão. Participe do Retiro Santificados 2026 da Rede Cativar." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/59a2fb15-507e-4468-88a0-cb477d90eee1/id-preview-d8d830fd--8740a2d6-245c-4779-9576-578e1749cf82.lovable.app-1782162608732.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/59a2fb15-507e-4468-88a0-cb477d90eee1/id-preview-d8d830fd--8740a2d6-245c-4779-9576-578e1749cf82.lovable.app-1782162608732.png" },
     ],
     links: [
       {
