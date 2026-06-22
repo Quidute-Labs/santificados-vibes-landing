@@ -2,15 +2,19 @@ import { Waves } from "./Waves";
 import { EXTERNAL_FORM_URL } from "@/lib/santificados-config";
 import logoSimplificada from "@/assets/logo-simplificada.png.asset.json";
 
-
 export function FinalCta() {
   return (
-    <section className="relative min-h-[90vh] overflow-hidden grain flex items-center justify-center px-6" style={{ background: "linear-gradient(180deg, var(--ocean), oklch(0.35 0.16 258))" }}>
+    <section
+      className="relative min-h-[90vh] overflow-hidden grain flex items-center justify-center px-6"
+      style={{ background: "linear-gradient(180deg, var(--ocean), oklch(0.35 0.16 258))" }}
+    >
       <div className="relative z-10 text-center text-[var(--cream)] max-w-3xl">
         <img src={logoSimplificada.url} alt="Santificados" className="mx-auto w-[min(80vw,420px)] mb-8 animate-float" />
 
-        <h2 className="font-display text-4xl sm:text-6xl leading-[0.95] mb-10">
-          Você está pronto para<br />viver algo novo?
+        <h2 className="font-display text-3xl sm:text-5xl leading-[0.95] mb-10">
+          Você está pronto para
+          <br />
+          viver algo novo?
         </h2>
         <a
           href={EXTERNAL_FORM_URL}
