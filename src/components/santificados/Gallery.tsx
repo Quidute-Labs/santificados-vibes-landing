@@ -1,19 +1,12 @@
 import { useReveal } from "@/hooks/use-reveal";
 
-import g1 from "@/assets/gallery/g1.jpg.asset.json";
-import g2 from "@/assets/gallery/g2.jpg.asset.json";
-import g3 from "@/assets/gallery/g3.jpg.asset.json";
-import g4 from "@/assets/gallery/g4.jpg.asset.json";
-import g5 from "@/assets/gallery/g5.jpg.asset.json";
-import g6 from "@/assets/gallery/g6.jpg.asset.json";
-
 const polaroids = [
-  { src: g1.url, caption: "Momento de oração", rot: -4 },
-  { src: g2.url, caption: "Conferência Purificados", rot: 3 },
-  { src: g3.url, caption: "O agir de Deus", rot: -2 },
-  { src: g4.url, caption: "Adoração & Intercessão", rot: 4 },
-  { src: g5.url, caption: "Família Cativar", rot: -3 },
-  { src: g6.url, caption: "Fogueira & Comunhão", rot: 2 },
+  { src: "/assets/g1.jpg", caption: "Momento de oração", rot: -4 },
+  { src: "/assets/g2.jpg", caption: "Conferência Purificados", rot: 3 },
+  { src: "/assets/g3.jpg", caption: "O agir de Deus", rot: -2 },
+  { src: "/assets/g4.jpg", caption: "Adoração & Intercessão", rot: 4 },
+  { src: "/assets/g5.jpg", caption: "Família Cativar", rot: -3 },
+  { src: "/assets/g6.jpg", caption: "Fogueira & Comunhão", rot: 2 },
 ];
 
 export function Gallery() {
