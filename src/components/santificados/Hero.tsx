@@ -1,4 +1,5 @@
 import logoCheia from "@/assets/logo-cheia.png.asset.json";
+import logoCativar from "@/assets/logo-cativar.png.asset.json";
 import { Waves } from "./Waves";
 import { EXTERNAL_FORM_URL, SPONSOR_FORM_URL } from "@/lib/santificados-config";
 
@@ -6,9 +7,11 @@ export function Hero() {
   return (
     <section className="relative min-h-screen w-full overflow-hidden grain" style={{ background: "linear-gradient(180deg, var(--ocean) 0%, var(--sky) 100%)" }}>
       <div className="relative z-10 flex min-h-screen flex-col items-center justify-center px-6 py-24 text-center text-[var(--cream)]">
-        <span className="mb-6 inline-block rounded-full border-2 border-[var(--cream)] bg-[var(--ink)]/30 px-4 py-1 text-xs font-bold uppercase tracking-[0.25em] backdrop-blur-sm">
-          Retiro · Cativar 2026
-        </span>
+        <img
+          src={logoCativar.url}
+          alt="Rede Cativar"
+          className="mb-6 h-10 w-auto"
+        />
 
         <img
           src={logoCheia.url}
