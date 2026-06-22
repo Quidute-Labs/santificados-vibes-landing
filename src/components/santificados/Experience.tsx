@@ -3,8 +3,8 @@ import { useReveal } from "@/hooks/use-reveal";
 
 const items = [
   { icon: Users, title: "Comunhão", desc: "Encontros que viram amizades pra vida.", color: "var(--ocean)" },
-  { icon: Flame, title: "Palavra", desc: "Mensagens que tocam fundo e renovam.", color: "var(--blaze)" },
-  { icon: Bird, title: "Adoração", desc: "Louvor que liberta e aproxima de Deus.", color: "var(--sun)" },
+  { icon: Flame, title: "Palavra", desc: "Mensagens que confronta.", color: "var(--blaze)" },
+  { icon: Bird, title: "Adoração", desc: "Louvor que nos aproxima de Deus.", color: "var(--sun)" },
   { icon: WavesIcon, title: "Diversão", desc: "Sol, ar livre e momentos inesquecíveis.", color: "var(--sky)" },
 ];
 
