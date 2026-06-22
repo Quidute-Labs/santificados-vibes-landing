@@ -10,7 +10,7 @@ export function Pricing() {
         <h2 className="font-display text-5xl sm:text-7xl mt-3">Vale cada centavo.</h2>
         <div className="mt-10 flex flex-col items-center">
           <span className="text-sm font-bold uppercase tracking-widest opacity-70">apenas</span>
-          <div className="font-display text-[120px] sm:text-[200px] leading-[0.85] text-[var(--ink)]">
+          <div className="font-display text-[80px] sm:text-[140px] leading-[0.85] text-[var(--ink)]">
             R$<span className="text-[var(--blaze)]">150</span>
           </div>
           <p className="mt-4 max-w-md text-base sm:text-lg">
