@@ -1,6 +1,5 @@
 import { Waves } from "./Waves";
 import { EXTERNAL_FORM_URL } from "@/lib/santificados-config";
-import logoSimplificada from "@/assets/logo-simplificada.png.asset.json";
 
 export function FinalCta() {
   return (
@@ -9,7 +8,7 @@ export function FinalCta() {
       style={{ background: "linear-gradient(180deg, var(--ocean), oklch(0.35 0.16 258))" }}
     >
       <div className="relative z-10 text-center text-[var(--cream)] max-w-3xl">
-        <img src={logoSimplificada.url} alt="Santificados" className="mx-auto w-[min(80vw,420px)] mb-4 animate-float" />
+        <img src="/assets/logo-simplificada.png" alt="Santificados" className="mx-auto w-[min(80vw,420px)] mb-4 animate-float" />
 
         <h2 className="font-display text-xl sm:text-3xl leading-[0.95] mb-5">
           Não fique de fora
