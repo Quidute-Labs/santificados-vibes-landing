@@ -1,8 +1,8 @@
-import { Coffée, UtensilsCrossed, Soup, Bus, Gift } from "lucide-react";
+import { Coffee, UtensilsCrossed, Soup, Bus, Gift } from "lucide-react";
 import { useReveal } from "@/hooks/use-reveal";
 
 const items = [
-  { icon: Coffée, label: "Café da manhã", sub: "Dia 16" },
+  { icon: Coffee, label: "Café da manhã", sub: "Dia 16" },
   { icon: Soup, label: "Almoço", sub: "Dias 15 e 16" },
   { icon: UtensilsCrossed, label: "Janta", sub: "Dia 15" },
   { icon: Bus, label: "Transporte", sub: "Ida e volta p/ a chácara" },

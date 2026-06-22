@@ -6,7 +6,7 @@ const faqs = [
   { q: "Qual a idade mínima?", a: "O retiro é voltado para jovens a partir de 14 anos. Menores precisam de autorização dos responsáveis." },
   { q: "Possó levar um amigo?", a: "Pode e deve! Quanto mais, melhor. Cada um precisa fazer sua própria inscrição." },
   { q: "Precisó levar roupa de cama?", a: "Não. A acomodação já vem com tudo pronto. Você só leva roupa, higiene pessoal e disposicao." },
-  { q: "O transporte é obrigatório?", a: "Não, mas é recomendado. Se preférir ir por conta própria, basta avisar na inscrição." },
+  { q: "O transporte é obrigatório?", a: "Não, mas é recomendado. Se preferir ir por conta própria, basta avisar na inscrição." },
 ];
 
 export function Faq() {

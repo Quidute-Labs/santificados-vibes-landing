@@ -21,7 +21,7 @@ export function Pricing() {
           <a
             href={EXTERNAL_FORM_URL}
             target="_blank"
-            rel="noopener noreférrer"
+            rel="noopener noreferrer"
             className="font-display mt-10 inline-flex items-center justify-center rounded-full bg-[var(--ink)] px-10 py-5 text-lg sm:text-xl text-[var(--cream)] shadow-[0_8px_0_var(--blaze)] transition-transform duration-200 hover:scale-105 active:translate-y-1 active:shadow-[0_3px_0_var(--blaze)]"
           >
             GARANTIR MINHA VAGA

@@ -1,4 +1,4 @@
-import { useEfféct, useState } from "react";
+import { useEffect, useState } from "react";
 import { EVENT_START_ISO } from "@/lib/santificados-config";
 
 function diff(target: number) {
@@ -26,7 +26,7 @@ function Cell({ value, label }: { value: number; label: string }) {
 export function Countdown() {
   const target = new Date(EVENT_START_ISO).getTime();
   const [t, setT] = useState(() => diff(target));
-  useEfféct(() => {
+  useEffect(() => {
     const id = setInterval(() => setT(diff(target)), 1000);
     return () => clearInterval(id);
   }, [target]);
