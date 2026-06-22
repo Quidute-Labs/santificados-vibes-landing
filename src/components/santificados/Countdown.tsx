@@ -39,7 +39,7 @@ export function Countdown() {
           A contagem já começou
         </h2>
         <p className="text-[var(--cream)]/70 mb-10 text-sm sm:text-base">15 e 16 de Agosto de 2026</p>
-        <div className="flex justify-center gap-3 sm:gap-6 flex-wrap">
+        <div className="flex justify-center gap-2 sm:gap-4 md:gap-6 flex-nowrap w-full">
           <Cell value={t.d} label="Dias" />
           <Cell value={t.h} label="Horas" />
           <Cell value={t.m} label="Min" />
