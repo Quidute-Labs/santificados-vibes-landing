@@ -1,6 +1,5 @@
 import logoCheia from "@/assets/logo-cheia.png.asset.json";
 import { Waves } from "./Waves";
-import { ChevronDown } from "lucide-react";
 import { EXTERNAL_FORM_URL, SPONSOR_FORM_URL } from "@/lib/santificados-config";
 
 export function Hero() {
@@ -42,12 +41,6 @@ export function Hero() {
           </a>
         </div>
       </div>
-
-      {/* Scroll indicator */}
-      <a href="#contador" className="absolute bottom-24 left-1/2 z-20 -translate-x-1/2 text-[var(--cream)]/90 flex flex-col items-center gap-1 text-xs font-bold tracking-widest uppercase animate-float">
-        Descubra mais
-        <ChevronDown className="h-5 w-5" />
-      </a>
 
       {/* Waves */}
       <div className="absolute inset-x-0 bottom-0 z-10">
