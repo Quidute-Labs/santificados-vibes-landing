@@ -1,6 +1,6 @@
 import { Waves } from "./Waves";
 import { EXTERNAL_FORM_URL } from "@/lib/santificados-config";
-import logoSimplificada from "@/assets/logo-simplificada.jpg.asset.json";
+import logoSimplificada from "@/assets/logo-simplificada.png.asset.json";
 
 
 export function FinalCta() {
