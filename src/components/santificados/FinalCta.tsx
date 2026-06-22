@@ -5,7 +5,7 @@ import logoSimplificada from "@/assets/logo-simplificada.png.asset.json";
 export function FinalCta() {
   return (
     <section
-      className="relative min-h-[90vh] overflow-hidden grain flex items-center justify-center px-6"
+      className="relative min-h-[50vh] overflow-hidden grain flex items-center justify-center px-6"
       style={{ background: "linear-gradient(180deg, var(--ocean), oklch(0.35 0.16 258))" }}
     >
       <div className="relative z-10 text-center text-[var(--cream)] max-w-3xl">
@@ -33,7 +33,9 @@ export function Footer() {
   return (
     <footer className="bg-[var(--ink)] text-[var(--cream)]/70 py-10 px-6 text-center text-sm">
       <div className="font-display text-[var(--cream)] text-lg mb-2">REDE CATIVAR - 2026</div>
-      <p>Rede de jovens e adolescentes <br /> da Primeira Igreja Batista em Araguaína/TO</p>
+      <p>
+        Rede de jovens e adolescentes <br /> da Primeira Igreja Batista em Araguaína/TO
+      </p>
     </footer>
   );
 }
