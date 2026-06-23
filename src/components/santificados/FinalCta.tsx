@@ -8,7 +8,11 @@ export function FinalCta() {
       style={{ background: "linear-gradient(180deg, var(--ocean), oklch(0.35 0.16 258))" }}
     >
       <div className="relative z-10 text-center text-[var(--cream)] max-w-3xl">
-        <img src="/assets/logo-simplificada.png" alt="Santificados" className="mx-auto w-[min(80vw,420px)] mb-4 animate-float" />
+        <img
+          src="/assets/logo-simplificada.png"
+          alt="Santificados"
+          className="mx-auto w-[min(80vw,420px)] mb-4 animate-float"
+        />
 
         <h2 className="font-display text-xl sm:text-3xl leading-[0.95] mb-5">
           Não fique de fora
@@ -33,7 +37,7 @@ export function Footer() {
     <footer className="bg-[var(--ink)] text-[var(--cream)]/70 py-10 px-6 text-center text-sm">
       <div className="font-display text-[var(--cream)] text-lg mb-2">REDE CATIVAR - 2026</div>
       <p>
-        Rede de jovens e adolescentes <br /> da Primeira Igreja Batista em Araguaína/TO
+        Jovens e adolescentes <br /> da Primeira Igreja Batista em Araguaína/TO
       </p>
     </footer>
   );
