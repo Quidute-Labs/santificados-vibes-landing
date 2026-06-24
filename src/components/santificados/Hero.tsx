@@ -33,7 +33,7 @@ export function Hero() {
             QUERO PARTICIPAR
           </a>
           <a
-            href="https://forms.gle/3KvwCknipfkV4PdH7"
+            href={SPONSOR_FORM_URL}
             target="_blank"
             rel="noopener noreferrer"
             className="font-display inline-flex items-center justify-center rounded-full border-2 border-[var(--cream)] px-8 py-4 text-lg text-[var(--cream)] transition-colors hover:bg-[var(--cream)] hover:text-[var(--ocean)]"
