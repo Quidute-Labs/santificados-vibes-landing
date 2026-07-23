@@ -1,10 +1,9 @@
 import { useReveal } from "@/hooks/use-reveal";
 
+const WHATSAPP_NUMBER = "5563991200862";
 const WHATSAPP_URL =
-  "https://wa.me/?text=" +
-  encodeURIComponent(
-    "Olá! Gostaria de reservar a camiseta oficial do Retiro Santificados 2026.",
-  );
+  `https://wa.me/${WHATSAPP_NUMBER}?text=` +
+  encodeURIComponent("Quero garantir minha camiseta oficial do retiro");
 
 export function Shirt() {
   const ref = useReveal<HTMLDivElement>();
@@ -43,8 +42,11 @@ export function Shirt() {
           <div className="font-display text-[64px] sm:text-[110px] leading-[0.85]">
             R$<span className="text-[var(--blaze)]">55</span>
           </div>
-          <p className="mt-4 max-w-md text-xs sm:text-sm italic opacity-70">
-            A camiseta é opcional e não está inclusa no valor da inscrição.
+          <p className="mt-6 font-display text-lg sm:text-xl opacity-90">
+            Peça a sua até dia 01/08
+          </p>
+          <p className="mt-3 max-w-md text-xs sm:text-sm italic opacity-70">
+            Não deixe para a última hora, porque depois do prazo não será possível fazer novos pedidos.
           </p>
           <a
             href={WHATSAPP_URL}
