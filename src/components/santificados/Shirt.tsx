@@ -37,13 +37,13 @@ export function Shirt() {
         </div>
 
         <div className="mt-10 flex flex-col items-center">
-          <span className="text-sm font-bold uppercase tracking-widest opacity-70">
+          <span className="text-sm font-bold uppercase tracking-widest opacity-70 mb-2">
             apenas
           </span>
           <div className="font-display text-[64px] sm:text-[110px] leading-[0.85]">
             R$<span className="text-[var(--blaze)]">55</span>
           </div>
-          <p className="mt-4 max-w-md text-sm sm:text-base opacity-70">
+          <p className="mt-4 max-w-md text-xs sm:text-sm italic opacity-70">
             A camiseta é opcional e não está inclusa no valor da inscrição.
           </p>
           <a
