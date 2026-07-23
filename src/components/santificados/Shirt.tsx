@@ -22,10 +22,6 @@ export function Shirt() {
         <h2 className="font-display text-4xl sm:text-6xl mt-3">
           Camiseta Oficial Santificados 2026
         </h2>
-        <p className="mt-4 max-w-2xl mx-auto text-base sm:text-lg opacity-80">
-          Leve com você uma lembrança desse retiro e vista a identidade do
-          movimento.
-        </p>
 
         <div className="mt-12 flex justify-center">
           <img
