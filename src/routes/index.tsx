@@ -5,6 +5,7 @@ import { Experience } from "@/components/santificados/Experience";
 import { Included } from "@/components/santificados/Included";
 import { Location } from "@/components/santificados/Location";
 import { Pricing } from "@/components/santificados/Pricing";
+import { Shirt } from "@/components/santificados/Shirt";
 import { Gallery } from "@/components/santificados/Gallery";
 import { Faq } from "@/components/santificados/Faq";
 import { FinalCta, Footer } from "@/components/santificados/FinalCta";
@@ -38,6 +39,7 @@ function Index() {
       <Included />
       <Location />
       <Pricing />
+      <Shirt />
       <Gallery />
       <Faq />
       <FinalCta />
